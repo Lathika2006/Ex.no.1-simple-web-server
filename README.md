@@ -87,19 +87,19 @@ Stop the Spring Boot server once testing is complete.
 
 </project>
 ```
-### AjwExp1Application.java
+### Ep1Application.java
 
 ```
-package com.example.ajw.exp_1;
+package com.example.ep1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AjwExp1Application {
+public class Ep1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AjwExp1Application.class, args);
+		SpringApplication.run(Ep1Application.class, args);
 	}
 
 }
@@ -108,7 +108,7 @@ public class AjwExp1Application {
 
 ### HelloController.java
 ```
-package com.example.ajw.exp_1;
+package com.example.ep1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -126,7 +126,7 @@ public class HelloController {
 
 ### application.properties:
 ```
-spring.application.name=ajw-exp-1
+spring.application.name=ep1
 server.port=8081
 ```
 
